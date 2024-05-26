@@ -14,8 +14,12 @@ pip install requirements.txt
 ```
 
 ## How to use
+You can find example of usage in main.py
+Just provide path to photo for process_barcode function
+or path to directory for process_barcodes_directory function
 ```
-To-do
+process_barcode(path_to_image)
+process_barcodes_directory(path_to_dir)
 ```
 
 ## Architecture
@@ -27,4 +31,8 @@ To-do
   Either OpenCV hand-engineered algorithm for detection or CRNN model
 
 ## Examples
+![img1_1](https://github.com/WayleX/IMbRecognizer/assets/91287481/7defac8f-aaf0-4375-af88-405132b47e3a)
 
+Output:
+
+img1_1.png : TATFDDFADDTFTATFFFADDADTTTAFADTFDTTTDTAFFTFDAFAFADFATAATDTAATAATF
